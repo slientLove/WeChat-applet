@@ -1,0 +1,17 @@
+<template name="logsDetail">
+   <view class='logs-container'>
+     <view class='logs-author'>
+      <image src='{{avatar}}'></image>
+      <text>{{date}}</text>
+     </view>
+        <text class='logs-title'>{{title}}</text>
+        <image class='logs-img' src='{{imgSrc}}'></image>
+        <text class='logs-content'>{{content}}</text>
+    <view class='logs-show'>
+      <image src='/images/icon/chat.png'></image>
+      <text>{{collection}}</text>
+      <image src='/images/icon/view.png'></image>
+      <text>{{reading}}</text>
+    </view>
+  </view>
+</template>

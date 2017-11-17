@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+   <image src='../images/logo.jpg'></image>
+   <text class='detail'>hello, 十二月</text>
+   <view class='foot'>
+      <text>开启我们的旅程</text>
+   </view>
+</view>

@@ -1,0 +1,63 @@
+.logs-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  /* margin-bottom: 40rpx; */
+  /* border-top: solid 1px #ededed; */
+   border-bottom: solid 1px #ededed;
+  /* padding-bottom: 5rpx; */
+  background: #fff;
+
+}
+.logs-author{
+   margin-top: 10rpx;
+   margin-bottom: 20rpx;
+   margin-left: 10px;
+}
+.logs-author image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.logs-author text{
+   margin-left: 20px;
+   vertical-align: middle;
+}
+.logs-title{
+  font-size: 34rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.logs-img{
+  width: 100%;
+  height: 340rpx;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.logs-content{
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  line-height: 40rpx;
+  letter-spacing: 2rpx;
+}
+.logs-show{
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-bottom: 20rpx;
+}
+.logs-show image{
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-right: 8rpx;
+}
+.logs-show text{
+  vertical-align: middle;
+  margin-right: 20px;
+}

@@ -1,0 +1,24 @@
+<!--logs.wxml-->
+<import src="logs-item/logs-template.wxml" />
+<view>
+  <swiper autoplay='true' indicator-dots='true' indicator-color='green'>
+    <block>
+       <swiper-item>
+         <image src='../../images/1.jpg'></image>
+       </swiper-item>
+       <swiper-item>
+         <image src='../../images/2.gif'></image>
+       </swiper-item>
+       <swiper-item>
+         <image src='../../images/3.jpg'></image>
+       </swiper-item>
+    </block>
+  </swiper>
+  <!-- 使用数据绑定，利用data进行数据传递，{...}可以展开数据-->
+  <view wx:for="{{ postList }}" wx:for-item="item">
+    <view catchtap='ontap' data-id='{{item.postId}}'>
+       <!-- template只是一个容器，不能添加事件 -->
+       <template is="logsDetail" data="{{...item}}"></template>
+    </view>
+  </view>
+</view>

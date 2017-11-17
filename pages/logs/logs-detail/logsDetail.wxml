@@ -1,0 +1,29 @@
+<view>
+   <image class='headImg' src='{{logsData.imgSrc}}'></image>
+   <image catchtap='playMusic' class='music' src="{{isPlay?'/images/music/music-stop.png':'/images/music/music-start.png'}}">
+   </image>
+   <view class='views'>
+      <!-- src里面需进行数据绑定 -->
+      <image src='{{logsData.avatar}}'></image>
+      <text>{{logsData.author}}</text>
+      <text>发表于</text>
+      <text>{{logsData.dateTime}}</text>
+   </view>
+   <text class='title'>{{logsData.title}}</text>
+   <view class='bar'>
+      <view class='bar-img'>
+       <!-- 显示图片是否被收藏 -->
+       <image wx:if="{{isCollected}}" catchtap='onCollection' 
+          src="/images/icon/collection.png">
+       </image>
+       <image wx:else catchtap='onCollection'  
+           src='/images/icon/collection-anti.png'>
+       </image>
+        <image src='/images/icon/share.png'></image>
+      </view>
+      <view class='horizon'></view>
+   </view>
+   <view class='detail'>
+      <text decode="{{true}}">{{logsData.detail}}</text>
+   </view>
+</view>
