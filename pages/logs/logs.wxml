@@ -1,16 +1,16 @@
 <!--logs.wxml-->
 <import src="logs-item/logs-template.wxml" />
 <view>
-  <swiper autoplay='true' indicator-dots='true' indicator-color='green'>
+  <swiper autoplay='true' indicator-dots='true' indicator-color='green' catchtap='onSwiper'>
     <block>
        <swiper-item>
-         <image src='../../images/1.jpg'></image>
+         <image src='../../images/1.jpg' data-id='0'></image>
        </swiper-item>
        <swiper-item>
-         <image src='../../images/2.gif'></image>
+         <image src='../../images/2.gif' data-id='1'></image>
        </swiper-item>
        <swiper-item>
-         <image src='../../images/3.jpg'></image>
+         <image src='../../images/3.jpg' data-id='2'></image>
        </swiper-item>
     </block>
   </swiper>

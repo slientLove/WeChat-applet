@@ -1,0 +1,25 @@
+/* pages/movie/movie.wxss */
+@import "movie-wrap/wrap-template.wxss";
+@import "movie-grid/movie-template-grid.wxss";
+.search{
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  background: #f2f2f2;
+}
+.search icon{
+  margin:18rpx 0 0 20rpx; 
+}
+.search input{
+  width: 600rpx;
+  height: 100%;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.clear-img{
+  height: 30rpx;
+  width: 30rpx;
+  margin: 24rpx 0 0 10rpx;
+}

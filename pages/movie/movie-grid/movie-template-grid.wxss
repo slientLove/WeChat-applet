@@ -1,0 +1,9 @@
+@import "../movie-list/list-template.wxss";
+.grid-movie{
+  float: left;
+  margin-bottom: 40rpx;
+}
+.grid-wrap {
+  margin: 40rpx 0 40rpx 10rpx;
+  height: 1300rpx;
+}

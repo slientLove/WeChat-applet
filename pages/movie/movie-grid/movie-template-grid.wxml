@@ -1,0 +1,11 @@
+<import src="../movie-list/list-template.wxml"/>
+<template name="movieGrid">
+   <!-- bindscrolltolower滚动到底部就会触发事件 -->
+   <scroll-view class="grid-wrap" scroll-y="true" bindscrolltolower="onScrollLower"> 
+    <block wx:for="{{movieArr}}"  wx:for-item="movie" >
+      <view class="grid-movie">
+        <template is="movie-list" data="{{...movie}}"></template>
+      </view>
+    </block>
+   </scroll-view> 
+</template>

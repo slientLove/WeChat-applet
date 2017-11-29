@@ -1,0 +1,23 @@
+<!--pages/movie/movie.wxml-->
+<!-- <import src="movie-wrap/wrap-template.wxml" /> -->
+<import src="movie-wrap/wrap-template.wxml" />
+<import src="movie-grid/movie-template-grid.wxml"/>
+<view class='search'>
+  <icon type='search' size='16' color='#405f80'></icon>
+  <input type='text' placeholder='那年夏天，宁静的海' bindfocus='onBindfocus' bindblur='onBindblur'></input>
+  <image wx:if="{{ searchShow }}" src="/images/icon/xx.png" class='clear-img' catchtap='onClear'></image>
+</view>
+<view class='movie-container' wx:if="{{showMovie}}">
+   <view class='movie-type'>
+      <template is="movie-wrap" data="{{...hotMovies}}"></template>
+   </view>
+   <view class='movie-type'>
+      <template is="movie-wrap" data="{{...scoreMovies}}"></template>
+   </view>
+   <view class='movie-type'>
+      <template is="movie-wrap" data="{{...top250}}"></template>
+   </view>
+</view>
+<view wx:if="{{searchShow}}">
+    <template is="movieGrid" data="{{...searchMovie}}"></template>
+</view>

@@ -1,0 +1,61 @@
+<import src="../movie-start/movie-template.wxml"/>
+<view class='detail-wrap'>
+   <image class='large-img' src="{{movie.movieImg}}" mode="aspectFill"></image>
+   <view class='head-detail'>
+     <text class='main-title'>{{movie.title}}</text>
+     <text class='year'>{{movie.country+"."+movie.year}}</text>
+     <view class='like'>
+       <text class='like-count'>
+         {{movie.wishCount}}
+       </text>
+       <text class='people'>
+         人喜欢
+       </text>
+       <text class='like-count'>
+         {{movie.commentCount}}
+       </text>
+       <text class='people'>
+         人评论
+       </text>
+     </view>
+   </view>
+   <image class='movie-img' src="{{movie.movieImg}}"></image>
+   <view class='summary'>
+    <view class='origin-title'>
+       <text>{{movie.originalTitle}}</text>
+    </view>
+    <view class='common'>
+      <text class='mark'>评分</text>
+      <template is="movie-start" data="{{starts:movie.starts,score:movie.score}}"></template>
+    </view>
+    <view class='common'>
+      <text class='mark'>导演</text>
+      <text>{{movie.directors}}</text>
+    </view>
+    <view class='common'>
+      <text class='mark'>影人</text>
+      <text>{{movie.casts}}</text>
+    </view>
+    <view class='common'>
+      <text class='mark'>类型</text>
+      <text>{{movie.generes}}</text>
+    </view>
+    <view class='hr'></view>
+    <view class='synopsis'>
+        <text class='synopsis-font'>剧情简介</text>
+        <text class='synopsis-content'>{{movie.summary}}</text>
+    </view>
+    <view class='hr'></view>
+    <view class='cast'>
+      <text class='cast-font'>影人</text>
+      <scroll-view class='scroll-wrap' scroll-x="{{true}}" scroll-y="{{false}}">
+         <block wx:for="{{movie.castsInfo}}" wx:for-item="item">
+            <view class='img-container'>
+                <image class='cast-img' src="{{item.img}}"></image>
+                <text class='cast-name'>{{item.name}}</text>
+            </view>
+         </block>
+      </scroll-view>
+    </view>
+   </view>
+</view>

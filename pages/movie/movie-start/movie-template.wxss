@@ -1,0 +1,19 @@
+.start-wrap{
+  display: flex;
+  flex-direction: row;
+}
+.start-img{
+  display: flex;
+  flex-direction: row;
+  height: 17rpx;
+  margin-top: 6rpx;
+  margin-right: 24rpx;
+}
+.start-img image{
+  height: 17rpx;
+  width: 17rpx;
+  padding-left:3rpx; 
+}
+.start-wrap text{
+  color: #1f3463;
+}

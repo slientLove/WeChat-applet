@@ -13,7 +13,7 @@ var local_database = [
         detail: "很多人根本都不知道，梦想和远方的定义是什么?你问他们，你的梦想是什么，你的远方在哪里。他们不知道。他们只知道，他们想过更随心所欲的生活，他们渴望像某某人看起来那样自由而高贵，他们不过是想逃离现在不够好的生活，逃离现在不够好的自己。对于这一种人，梦想和远方永远都是奢侈的。因为远方从来不是乌托邦，梦想从来也不是保护伞。它是具象的，它就是指向你正在做的那些事，它永远指向你所遇到的那些人。所谓的最好的梦想，就是寻找到那些和你有一样理念的人们，脚踏实地的做着那些实际很世俗的事。所谓的远方，那里有伤害，有离别，有背弃，有骗局，有各种你意想不到的灾难。如果梦想和远方就是这样，你还愿意上路吗？它很可能比你稳稳的踏实的呆在原地，要痛苦的多，要千疮百孔的多。“是的，即便这样，我也要依然往前走。”能在心里坚定说出这句话的人，才是真正的梦想家。",
         postId: 0,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400004XcdPX08dOus.m4a?vkey=852C0E20A32A27122040FF52E37D9DEB46340E1C3D757ACC1BB4F6C72C06769F3F0B0167DDCFA646E1F40149C267FA5051CC740CF19C8B5F&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C400004XcdPX08dOus.m4a?vkey=B6B5FD1E15C28B731E4062836EA4AB6CA5FCDAE77860F6940A2CF12D21DD0F52EB35F82365ADCFF66B4FA64F0C4BA17FFAC4357B1E75FF9E&guid=5655832639&uin=0&fromtag=66",
             title: "曾经的你-许巍",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000001TEc6V0kjpVC.jpg?max_age=2592000"
         }
@@ -32,7 +32,7 @@ var local_database = [
         avatar: "/images/avatar/1.png",
         postId: 1,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400000T1Ws32MWrUj.m4a?vkey=61E6206195210826B0817CE856919DB26797188A875676B7225D29ECB43FE558B57409E4F3F3FCD70BFAF70B6A8D6A3EF70FF34EB540B14A&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C40000020yc41KtWj2.m4a?vkey=E4F1566F419310335A5E17E5F8A68F4FAADD932561241E3E44AA02DAC1F021E83ED4BABFA011C5A3C5B411F83C103CB5C31950EAC303D4A3&guid=5655832639&uin=0&fromtag=66",
             title: "平凡之路-朴树",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000002xOmp62kqSic.jpg?max_age=2592000"
         }
@@ -52,7 +52,7 @@ var local_database = [
         avatar: "/images/avatar/3.png",
         postId: 2,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400002wBti41pfWnN.m4a?vkey=C6804A6256B745186196E015DAFDF6D6375A0D91C167EFE1C90F6AC4A9538CBC1839CD6EEEC69EF2B3CAFCA7CB7FFA494D26345F46A0A713&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C400002wBti41pfWnN.m4a?vkey=E9F74839C7B0FA2A830AC63CD47AABDEB3269CFCD118F664211D7F8AC3975A63963D27A436A7F25F70F08E8D7C4621D4696BAFDAE166174D&guid=5655832639&uin=0&fromtag=66",
           title: "天使的翅膀-安琥",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
         }
@@ -71,7 +71,7 @@ var local_database = [
         avatar: "/images/avatar/5.png",
         postId: 3,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400002MFDAV3rPFlo.m4a?vkey=AFEAA368DA409711C1845B54EDF80CB824BC6FFBDF36AFD7C08C6D1E8C9151088F237CCBD9D4E03834BE69C6F16E9B147B28A6CC56AD9119&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C400002MFDAV3rPFlo.m4a?vkey=30F67CE1BF86663A818714F3FC58C24B9C7574D91BEB4F7F42E6291AF65C3606EF1B29E33AD8081982552EF061856DD1E348E85387B12EDF&guid=5655832639&uin=0&fromtag=66",
             title: "青花-周传雄",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000001VaXQX1Z1Imq.jpg?max_age=2592000",
         }
@@ -90,7 +90,7 @@ var local_database = [
         avatar: "../../../images/avatar/3.png",
         postId: 4,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400000Qhd4C3Hfn7t.m4a?vkey=E802E6C4EE73955BFCFB5A74BCEFE04DCC7B47B852F1893CF54DF1A197B0BE28A08DF86770F34DE52383F6C8353707711E86D5EA04031D62&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C400000Qhd4C3Hfn7t.m4a?vkey=AA43B42192F202577700C0422C51DDC4A97EACEDBF049C10D0456DF643DA9A7986CD14E2951E34653A9401F6B8DBF253E3C3078A78187DAD&guid=5655832639&uin=0&fromtag=66",
             title: "旅行-许巍",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000003at0mJ2YrR2H.jpg?max_age=2592000"
         }
@@ -109,7 +109,7 @@ var local_database = [
         avatar: "../../../images/avatar/5.png",
         postId: 5,
         music: {
-          url: "http://dl.stream.qqmusic.qq.com/C400002WFXai3iFxvy.m4a?vkey=EC0840C93DC4B1D44B7CD5C86EA499364048DC170A31A58E40AD7ED6CDA8DC54B1549E43B628ADE02BC3C5C400B989FBEB0882392FAB1162&guid=66886221&uin=0&fromtag=66",
+          url: "http://dl.stream.qqmusic.qq.com/C400002WFXai3iFxvy.m4a?vkey=10883CF568067D66CC6C3B18CFC1214566EFB116C14EEBE54ABDF771594CD4A8FC1AE63FD95697B217D3303FA09AD1EBE6DA3E9EDC0185AA&guid=5655832639&uin=0&fromtag=66",
             title: "菊次郎的夏天-久石让",
             coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004eGsCN3SUheO.jpg?max_age=2592000"
         }

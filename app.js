@@ -36,6 +36,8 @@ App({
   globalData: {
     userInfo: null,
     isPlayingMusic:false,
-    global_currenId:null
+    global_currenId:null,
+    doubanHttp:"https://api.douban.com",
+    mtimeHttp:"https://api-m.mtime.cn"
   }
 })

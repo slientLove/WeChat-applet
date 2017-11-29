@@ -8,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.4",
-	"appid": "touristappid",
-	"projectname": "movie",
+	"libVersion": "1.6.6",
+	"appid": "wxa79f27d2c7753fd8",
+	"projectname": "wei-chart",
 	"condition": {
 		"search": {
 			"current": -1,

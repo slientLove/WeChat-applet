@@ -1,0 +1,16 @@
+@import "../movie-start/movie-template.wxss";
+.list-wrap{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+.list-wrap .head-img{
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 20rpx;
+}
+.list-wrap text{
+  margin-bottom: 20rpx;
+  margin-top: 5rpx;
+  font-size: 16rpx;
+}

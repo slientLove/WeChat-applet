@@ -11,7 +11,7 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../logs/logs'
     })
   },
@@ -50,5 +50,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onStart(){
+    wx.switchTab({
+      url: '../logs/logs',
+    });
+    // wx.redirectTo({
+    //   url: '../logs/logs'
+    // })
   }
 })
